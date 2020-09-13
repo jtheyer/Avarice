@@ -2,9 +2,7 @@ import 'package:avarice/models/user_custom_model.dart';
 import 'package:avarice/screens/wrapper.dart';
 import 'package:avarice/services/authentication_service.dart';
 import 'package:provider/provider.dart';
-
 import 'screens/authenticate/authenticate_screen.dart';
-import 'screens/authenticate/login_screen.dart';
 import 'screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'widgets/app.dart';
@@ -43,7 +41,6 @@ class MyApp extends StatelessWidget {
               Wrapper.id: (context) => Wrapper(),
               AuthenticateScreen.id: (context) => AuthenticateScreen(),
               HomeScreen.id: (context) => HomeScreen(),
-              LoginScreen.id: (context) => LoginScreen(),
             }),
       ),
     );

@@ -26,6 +26,7 @@ class HomeScreen extends StatelessWidget {
                 label: 'check result',
                 onPressed: () {
                   print(currentUser);
+                  print(currentUser.uid);
                 },
               ),
             ),

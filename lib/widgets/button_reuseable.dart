@@ -20,7 +20,7 @@ class ReuseableButton extends StatelessWidget {
           color: Colors.white70,
         ),
       ),
-      color: Colors.blueGrey,
+      color: color == null ? Colors.blueGrey : color,
     );
   }
 }

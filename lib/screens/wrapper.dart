@@ -2,7 +2,6 @@ import 'package:avarice/models/user_custom_model.dart';
 import 'package:avarice/screens/authenticate/authenticate_screen.dart';
 import 'package:avarice/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:avarice/services/authentication_service.dart';
 import 'package:provider/provider.dart';
 
 ///
